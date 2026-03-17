@@ -27,34 +27,6 @@ This project performs advanced survival analysis on oncology clinical data, mimi
 - ggplot2
 - dplyr
 
-##  Project Structure
-
-R-Clinical-Oncology-Survival/
-│
-├── data/
-│ ├── raw_data.csv
-│ └── adam_dataset.csv
-│
-├── scripts/
-│ ├── 01_data_preparation.R
-│ ├── 02_kaplan_meier.R
-│ ├── 03_logrank_test.R
-│ ├── 04_cox_model.R
-│ ├── 05_subgroup_analysis.R
-│
-├── outputs/
-│ ├── KM_OS_plot.png
-│ ├── KM_PFS_plot.png
-│ ├── forest_plot.png
-│ └── results_summary.csv
-│
-├── report/
-│ └── clinical_report.md
-│
-└── README.md
-
-
-
 ## 🔬 Analysis Performed
 
 ### 1. Kaplan-Meier Survival Analysis
